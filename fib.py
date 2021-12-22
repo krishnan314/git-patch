@@ -1,12 +1,12 @@
 # Fibonacci
 def fib(n):
     """
-    Returns the fibonacci value of n starting from 1
-      fib(1) -> 1
+    Returns the fibonacci value of n starting from 0
+      fib(1) -> 0
     """
     # base case
-    if n == 0:
+    if n == 1:
         return 0
 
     # recursive case
-    return n - fib(n-1) 
+    return n + fib(n-1) 
